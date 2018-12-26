@@ -1,0 +1,34 @@
+Dec 23 18:37:19.754 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Dec 23 18:37:19.754 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 44647.
+Dec 23 18:37:19.764 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 23 18:37:19.764 HYPERVISOR: exec_cmd: hypervisor working_dir /host/Users/Pedro/Documents/UA/FR/Project/FR-Project/project-files/dynamips 
+Dec 23 18:37:19.764 GENERAL: working_dir=/host/Users/Pedro/Documents/UA/FR/Project/FR-Project/project-files/dynamips
+Dec 23 18:37:19.764 HYPERVISOR: exec_cmd: hypervisor working_dir /host/Users/Pedro/Documents/UA/FR/Project/FR-Project/project-files/dynamips/81916e5d-f837-4fd5-a0ea-a7e306d8c0d6 
+Dec 23 18:37:19.765 GENERAL: working_dir=/host/Users/Pedro/Documents/UA/FR/Project/FR-Project/project-files/dynamips/81916e5d-f837-4fd5-a0ea-a7e306d8c0d6
+Dec 23 18:37:19.765 HYPERVISOR: exec_cmd: vm create SWL3_C2 5 c3725 
+Dec 23 18:37:19.765 VM: VM SWL3_C2 created.
+Dec 23 18:37:19.766 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3_C2 5004 
+Dec 23 18:37:19.766 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWL3_C2 
+Dec 23 18:37:19.766 HYPERVISOR: exec_cmd: vm set_disk0 SWL3_C2 1 
+Dec 23 18:37:19.766 HYPERVISOR: exec_cmd: vm get_status SWL3_C2 
+Dec 23 18:37:19.767 HYPERVISOR: exec_cmd: vm set_idle_pc SWL3_C2 0x60a6a1e0 
+Dec 23 18:37:19.767 HYPERVISOR: exec_cmd: vm set_ios SWL3_C2 /home/pedro/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 23 18:37:19.768 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWL3_C2 c205.2c0b.0000 
+Dec 23 18:37:19.768 HYPERVISOR: exec_cmd: vm set_nvram SWL3_C2 256 
+Dec 23 18:37:19.768 HYPERVISOR: exec_cmd: vm set_ram SWL3_C2 256 
+Dec 23 18:37:19.769 HYPERVISOR: exec_cmd: vm get_status SWL3_C2 
+Dec 23 18:37:19.769 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3_C2 1 0 NM-16ESW 
+Dec 23 18:37:20.067 HYPERVISOR: exec_cmd: nio create_udp udp-bf54c99b-c4db-4d10-870c-9a90fb816cca 10010 127.0.0.1 10011 
+Dec 23 18:37:20.087 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3_C2 1 1 udp-bf54c99b-c4db-4d10-870c-9a90fb816cca 
+Dec 23 18:37:20.087 HYPERVISOR: exec_cmd: vm get_status SWL3_C2 
+Dec 23 18:37:20.209 HYPERVISOR: exec_cmd: nio create_udp udp-cbda5581-a735-4596-82b4-558cb16b9466 10022 127.0.0.1 10023 
+Dec 23 18:37:20.210 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3_C2 1 2 udp-cbda5581-a735-4596-82b4-558cb16b9466 
+Dec 23 18:37:20.210 HYPERVISOR: exec_cmd: vm get_status SWL3_C2 
+Dec 23 18:37:20.517 HYPERVISOR: exec_cmd: nio create_udp udp-46a330cc-9182-4089-9464-60e54925e833 10042 127.0.0.1 10043 
+Dec 23 18:37:20.518 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3_C2 0 0 udp-46a330cc-9182-4089-9464-60e54925e833 
+Dec 23 18:37:20.518 HYPERVISOR: exec_cmd: vm get_status SWL3_C2 
+Dec 23 18:37:25.209 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3_C2 2 
+Dec 23 18:37:25.209 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3_C2 /host/Users/Pedro/Documents/UA/FR/Project/FR-Project/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-256.ghost 
+Dec 23 18:37:25.209 HYPERVISOR: exec_cmd: vm get_status SWL3_C2 
+Dec 23 18:37:25.210 HYPERVISOR: exec_cmd: vm set_config SWL3_C2 configs/i5_startup-config.cfg 
+Dec 23 18:37:25.210 HYPERVISOR: exec_cmd: vm start SWL3_C2 
