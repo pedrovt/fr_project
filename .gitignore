@@ -1,0 +1,10 @@
+# ignore all files
+
+
+# except
+*.txt
+c3725_i*_rom
+c3725_i*_slot*
+c3725_i*_ssa
+
+\.fuse_hidden*
