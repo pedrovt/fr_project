@@ -1,6 +1,7 @@
 # ignore 
 *.txt
 *.log
+ubridge.log
 \.fuse_hidden*
 
 c7200_i*_bootflash
@@ -14,4 +15,5 @@ c3725_i*_ram
 c3725_i*_rommon_vars
 c3725_i*_slot*
 c3725_i*_ssa
-
+c*_i*_lock
+ilt_*
