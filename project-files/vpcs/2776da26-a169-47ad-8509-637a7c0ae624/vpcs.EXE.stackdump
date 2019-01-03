@@ -1,0 +1,6 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00407D53
+eax=FFFF00FF ebx=00079B90 ecx=FF000000 edx=FF00FFFF esi=FF00FFFF edi=00419DAB
+ebp=00000002 esp=007F9820 program=C:\Program Files\GNS3\vpcs\vpcs.EXE, pid 22868, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
