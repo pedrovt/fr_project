@@ -1,9 +1,14 @@
-# This the configuration for ADMN-1
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
+# This the configuration for ADMN-1
+#
+
+# Uncomment the following line to enable DHCP
+# dhcp
+
+
+
+# or the line below to manually setup an IP address and subnet mask
+ip 10.100.3.8 255.255.255.0 10.100.3.4/24
+ip 3100:0:0:0:3::8/64 3100:0:0:3::4
+
+
 set pcname ADMN-1

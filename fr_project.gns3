@@ -1493,10 +1493,11 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet1",
                             "port_number": 1,
                             "type": "access",
-                            "vlan": 1
+                            "vlan": 3
                         },
                         {
                             "name": "Ethernet2",
@@ -1570,10 +1571,11 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet1",
                             "port_number": 1,
                             "type": "access",
-                            "vlan": 1
+                            "vlan": 2
                         },
                         {
                             "name": "Ethernet2",
@@ -1650,15 +1652,15 @@
                             "ethertype": "",
                             "name": "Ethernet1",
                             "port_number": 1,
-                            "type": "dot1q",
-                            "vlan": 1
+                            "type": "access",
+                            "vlan": 4
                         },
                         {
                             "ethertype": "",
                             "name": "Ethernet2",
                             "port_number": 2,
-                            "type": "dot1q",
-                            "vlan": 1
+                            "type": "access",
+                            "vlan": 5
                         },
                         {
                             "ethertype": "",
@@ -2179,8 +2181,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -805,
-                "y": -97,
+                "x": -782,
+                "y": -104,
                 "z": 0
             },
             {
@@ -2194,7 +2196,7 @@
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "VID-1",
                     "x": 10,
-                    "y": -25
+                    "y": -33
                 },
                 "name": "VID-1",
                 "node_id": "2776da26-a169-47ad-8509-637a7c0ae624",
