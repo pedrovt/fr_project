@@ -1,9 +1,9 @@
-# This the configuration for PC-VLAN2-ENG-2
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
-set pcname PC-VLAN2-ENG-2
+# This the configuration for ENG-2
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+# ip 192.168.1.1 255.0.0.0
+#
+
+set pcname ENG-2

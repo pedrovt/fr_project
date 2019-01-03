@@ -1,9 +1,10 @@
-# This the configuration for PC-INTERNET
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
-set pcname PC-INTERNET
+# This the configuration for INT-1
+
+# Uncomment the following line to enable DHCP
+# dhcp
+
+# or the line below to manually setup an IP address and subnet mask
+ip address 100.0.0.2 255.255.255.0
+ip 3000:A:A:A::2/64
+
+set pcname INT-1
