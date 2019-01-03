@@ -5,6 +5,6 @@
 
 # or the line below to manually setup an IP address and subnet mask
 ip 100.0.0.2 255.255.255.0 100.0.0.1
-ip 3000:A:A:A::2/64 3000:A:A:A::1/64
+ip 3000:A:A:A::2/64 3000:A:A:A::1
 
 set pcname INT-1

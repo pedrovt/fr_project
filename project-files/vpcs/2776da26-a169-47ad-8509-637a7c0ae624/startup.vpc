@@ -5,7 +5,7 @@
 # dhcp
 
 # or the line below to manually setup an IP address and subnet mask
-ip 110.0.0.227 255.255.255.240 110.0.0.228
+ip 110.0.0.229 255.255.255.240 110.0.0.228
 ip 3100:0:0:4::7/64 3100:0:0:4::4
 
 set pcname VID-1
