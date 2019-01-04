@@ -83,9 +83,9 @@
             {
                 "drawing_id": "8963f202-9fa1-4781-8acf-7267174ce977",
                 "rotation": 0,
-                "svg": "<svg height=\"207\" width=\"317\"><rect fill=\"#\" fill-opacity=\"0.0\" height=\"207\" stroke=\"#000000\" stroke-width=\"2\" width=\"317\" /></svg>",
-                "x": -992,
-                "y": -382,
+                "svg": "<svg height=\"272\" width=\"322\"><rect fill=\"#\" fill-opacity=\"0.0\" height=\"272\" stroke=\"#000000\" stroke-width=\"2\" width=\"322\" /></svg>",
+                "x": -989,
+                "y": -437,
                 "z": -1
             },
             {
@@ -100,8 +100,8 @@
                 "drawing_id": "e469311a-88e2-479b-b4d7-4d356d76fdfd",
                 "rotation": 0,
                 "svg": "<svg height=\"104\" width=\"151\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN 2\nEngineering\n\n10.100.2.0/24 private\n110.0.0.128/26 \n3100:0:0:2::/64</text></svg>",
-                "x": -984,
-                "y": -376,
+                "x": -975,
+                "y": -427,
                 "z": -1
             },
             {
@@ -182,14 +182,6 @@
                 "svg": "<svg height=\"72\" width=\"159\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">DMZ\n10.100.0.0 / 24 private\n110.0.0.0/26\n3100:0:0:0::/64</text></svg>",
                 "x": 480,
                 "y": -509,
-                "z": 1
-            },
-            {
-                "drawing_id": "fbbb2bf5-6d35-4c1c-99fe-b27c1f835aab",
-                "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"170\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">NAT/PAT 110.0.0.192/28</text></svg>",
-                "x": 342,
-                "y": 284,
                 "z": 1
             }
         ],
@@ -2131,8 +2123,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -805,
-                "y": -321,
+                "x": -782,
+                "y": -404,
                 "z": 0
             },
             {
@@ -2156,8 +2148,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -805,
-                "y": -247,
+                "x": -782,
+                "y": -254,
                 "z": 0
             },
             {
@@ -2171,7 +2163,7 @@
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "ADMN-1",
                     "x": 2,
-                    "y": -25
+                    "y": -37
                 },
                 "name": "ADMN-1",
                 "node_id": "e322a6cd-ce20-4d36-9232-0dc5245d37a0",
@@ -2206,8 +2198,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -805,
-                "y": 125,
+                "x": -782,
+                "y": 120,
                 "z": 0
             },
             {
@@ -2231,8 +2223,8 @@
                 "properties": {},
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "width": 65,
-                "x": -805,
-                "y": 275,
+                "x": -782,
+                "y": 270,
                 "z": 0
             }
         ]
@@ -2240,5 +2232,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.1.11",
-    "zoom": 73
+    "zoom": 75
 }
