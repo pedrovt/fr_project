@@ -1115,6 +1115,37 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "c47b00ea-dfe1-4654-81e7-5e1fd1f82eba",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": 58,
+                            "y": -16
+                        },
+                        "node_id": "6c7103ec-32b7-4f97-bece-2455fab3fd87",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 9,
+                            "y": 61
+                        },
+                        "node_id": "cf912753-ef36-4202-9488-fb75604fb871",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -2375,8 +2406,8 @@
                 },
                 "symbol": ":/symbols/vbox_guest.svg",
                 "width": 65,
-                "x": 504,
-                "y": 332,
+                "x": 507,
+                "y": 351,
                 "z": 0
             },
             {
@@ -2454,11 +2485,45 @@
                 "x": 500,
                 "y": 215,
                 "z": 0
+            },
+            {
+                "compute_id": "local",
+                "console": 5031,
+                "console_type": "telnet",
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "HTTP",
+                    "x": 13,
+                    "y": -25
+                },
+                "name": "HTTP",
+                "node_id": "cf912753-ef36-4202-9488-fb75604fb871",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "acpi_shutdown": false,
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "ram": 512,
+                    "use_any_adapter": false,
+                    "vmname": "LabComServerFR-HTTP-2"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "width": 65,
+                "x": 147,
+                "y": -466,
+                "z": 0
             }
         ]
     },
     "type": "topology",
     "variables": null,
     "version": "2.1.11",
-    "zoom": 75
+    "zoom": 80
 }
