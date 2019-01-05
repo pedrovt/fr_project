@@ -43,7 +43,7 @@
             {
                 "drawing_id": "534bc823-5cbb-4490-8b20-f77309743cbb",
                 "rotation": 0,
-                "svg": "<svg height=\"88\" width=\"174\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Old Building\n192.168.0.0/20\n\nOB-1 192.168.0.50/20 RA\nOB-2 192.168.0.51/20 RA</text></svg>",
+                "svg": "<svg height=\"88\" width=\"199\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Old Building\n192.168.0.0/20\n\nOB-1 192.168.0.50/20\t   RA\nOB-2 192.168.0.51/20\t   RA</text></svg>",
                 "x": 649,
                 "y": -146,
                 "z": -1
@@ -99,7 +99,7 @@
             {
                 "drawing_id": "e469311a-88e2-479b-b4d7-4d356d76fdfd",
                 "rotation": 0,
-                "svg": "<svg height=\"168\" width=\"229\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN 2\nEngineering\n\nENG-1\n10.100.2.8/24  10.100.2.4\n3100:0:0:2::8/64 3100:0:0:2::4\n\nENG-2\nip 10.100.2.9/24  10.100.2.3\nip 3100:0:0:2::9/64 3100:0:0:2::3</text></svg>",
+                "svg": "<svg height=\"168\" width=\"224\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN 2\nEngineering\n\nENG-1\n10.100.2.8/24 \tSWL3 C1\n3100:0:0:2::8/64 \tSWL3 C1\n\nENG-2\n10.100.2.9/24  \tSWL3 C2\n3100:0:0:2::9/64 \tSWL3 C2</text></svg>",
                 "x": -979,
                 "y": -405,
                 "z": -2
@@ -115,7 +115,7 @@
             {
                 "drawing_id": "8a7cf4f9-37a1-4bf2-bc9c-a46bb221f0d5",
                 "rotation": 0,
-                "svg": "<svg height=\"88\" width=\"224\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN  3\nAdministration\n\n10.100.3.8/24        10.100.3.4/24\n3100:0:0:3::8/64  3100:0:0:3::4</text></svg>",
+                "svg": "<svg height=\"88\" width=\"224\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN  3\nAdministration\n\n10.100.3.8/24        \tSWL3 C2\n3100:0:0:3::8/64  \tSWL3 C2</text></svg>",
                 "x": -980,
                 "y": -125,
                 "z": -1
@@ -139,7 +139,7 @@
             {
                 "drawing_id": "eda5f1a9-29d9-47cb-8917-17fd97d03736",
                 "rotation": 0,
-                "svg": "<svg height=\"88\" width=\"214\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN  4\nVideo-conference\n\n110.0.0.229/28 110.0.0.228\n3100:0:0:4::7/64 3100:0:0:4::4</text></svg>",
+                "svg": "<svg height=\"88\" width=\"224\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN  4\nVideo-conference\n\n110.0.0.229/28 \tSWL3 C1\n3100:0:0:4::7/64 \tSWL3 C1</text></svg>",
                 "x": -978,
                 "y": 51,
                 "z": 0
@@ -147,7 +147,7 @@
             {
                 "drawing_id": "22538613-03f6-4c54-8fd6-65f7b7febf75",
                 "rotation": 0,
-                "svg": "<svg height=\"232\" width=\"214\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN 5\nVoIP\n\nVOIP-1\n10.100.5.7/24 10.100.5.3\n3100:0:0:5::7/64 3100:0:0:5::4\n\n\n\n\n\nVOIP-2\nDHCP IPv4\nNo IPv6</text></svg>",
+                "svg": "<svg height=\"248\" width=\"224\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VLAN 5\nVoIP\n\nVOIP-1\n10.100.5.7/24 \tSWL3 C2\n3100:0:0:5::7/64 \tSWL3 C1\n\n\n\nVOIP-2\nDHCP IPv4\n(between 10.100.5.21 \nand 10.100.5.29, default \ngateway SWL3 C1)\nNo IPv6</text></svg>",
                 "x": -981,
                 "y": 225,
                 "z": 1
@@ -155,7 +155,7 @@
             {
                 "drawing_id": "a49baba0-a2c9-465b-8da0-6c5e24047c14",
                 "rotation": 0,
-                "svg": "<svg height=\"136\" width=\"214\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">DATACENTER\n\nDATA-1\n10.100.1.5/24 10.100.1.1\n3100:0:0:1::2/64 3100:0:0:1::1\n\nHTTP-1\n110.0.0.67/26 110.0.0.68</text></svg>",
+                "svg": "<svg height=\"136\" width=\"220\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">DATACENTER\n\nDATA-1\n10.100.1.5/24 \tSWL3C1\n3100:0:0:1::2/64 \tSWL3C1\n\nHTTP-1\n110.0.0.67/26 \tSWL3C1</text></svg>",
                 "x": -212,
                 "y": -518,
                 "z": 1
@@ -179,7 +179,7 @@
             {
                 "drawing_id": "bf327ec5-ad7a-4bee-9961-abc758f22daf",
                 "rotation": 0,
-                "svg": "<svg height=\"72\" width=\"214\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">DMZ\n\n10.100.0.5/24 10.100.0.1\n3100:0:0:0::2/64 3100:0:0:0::1</text></svg>",
+                "svg": "<svg height=\"72\" width=\"220\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">DMZ\n\n110.0.0.5/24 \tSWL3C1\n3100:0:0:0::2/64 \tSWL3C1</text></svg>",
                 "x": 238,
                 "y": -521,
                 "z": 1
@@ -187,7 +187,7 @@
             {
                 "drawing_id": "5a61cd48-72b6-4675-9e32-a65fae18c5d2",
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"204\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Caption: IP/MASK    GATEWAY</text></svg>",
+                "svg": "<svg height=\"24\" width=\"232\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Caption: IP/MASK\tGATEWAY</text></svg>",
                 "x": -984,
                 "y": -500,
                 "z": 1
@@ -195,7 +195,7 @@
             {
                 "drawing_id": "d864c1f5-0bc2-4db9-beaa-801729571cea",
                 "rotation": 0,
-                "svg": "<svg height=\"120\" width=\"189\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">INT-1\n100.0.0.2/24 \tISP\n3000:A:A:A::2/64\tISP\n\nTEST\n100.0.0.5 \t\tISP\n</text></svg>",
+                "svg": "<svg height=\"120\" width=\"189\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">INT-1\n100.0.0.2/24 \tISP\n3000:A:A:A::2/64\tISP\n\nTEST\n100.0.0.5/24\tISP\n</text></svg>",
                 "x": 651,
                 "y": 297,
                 "z": 1
@@ -2470,11 +2470,11 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Ethernetswitch-2",
-                    "x": -25,
+                    "text": "SWL2-INT",
+                    "x": 0,
                     "y": -25
                 },
-                "name": "Ethernetswitch-2",
+                "name": "SWL2-INT",
                 "node_id": "b87e60e6-d060-4568-8bf7-32a5328155dd",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
