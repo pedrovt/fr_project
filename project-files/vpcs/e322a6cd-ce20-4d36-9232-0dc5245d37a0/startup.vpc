@@ -7,7 +7,7 @@
 
 
 # or the line below to manually setup an IP address and subnet mask
-ip 10.100.3.8 255.255.255.0 10.100.3.4/24
+ip 10.100.3.8 255.255.255.0 10.100.3.4
 ip 3100:0:0:3::8/64 3100:0:0:3::4
 
 
